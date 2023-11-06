@@ -1,0 +1,38 @@
+kalkulator pol -> sum(area_km2, vegdesc = 'Mixed Trees')
+Pole wszystkich drzew: 330000
+
+filtruj -> vegdesc -> zapisz obiektow do nowej warstwy -> bazy danych -> importuj
+
+regions -> filtruj -> wektor -> narzedzia analizy -> suma dlugosci linii
+
+kalkulator pol -> mean(elev, use = 'Military')
+
+Srednia wysokosc lotniska: 593 
+
+kalkulator pol -> count(gid, use = 'Military')
+
+Ilosc obiektow: 8
+
+kalkulator pol -> filter -> elev > 1400
+
+Ilosc obiektow do usuniecia: 5
+
+kalkulator pol -> count(f_codesc)
+
+popp -> wektor -> narzedzia geoprocessingu -> przytnij -> regions
+
+Ilosc budynkow w regionie: 11
+
+popp -> wektor -> narzedzia badawcze -> wybierz w odleglosci -> 100 km
+
+Ilosc budynkow w dystansie: 11
+
+Ilosc punktow przeciecia: 8
+
+Ilosc punktow z linii: 662
+
+Suma pol swamp: 24719
+
+Ilosc punktow ze swamp: 7469
+
+Ilosc punktow ze uproszczonego swamp: 6660
